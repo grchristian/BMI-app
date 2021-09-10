@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     var IMC = 0.0
     
     @IBOutlet weak var pesoText: UITextField!
-    
     @IBOutlet weak var estaturaText: UITextField!
     
     
@@ -32,7 +31,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.hideKeyboardWhenTappedAround()
     }
     
     
@@ -46,7 +45,23 @@ class ViewController: UIViewController {
         sigVista.IMC = self.IMC 
     }
     
+    
+    
+    
+    
 
 
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
 

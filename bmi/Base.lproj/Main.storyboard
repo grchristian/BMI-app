@@ -113,7 +113,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1034.7826086956522" y="92.410714285714278"/>
+            <point key="canvasLocation" x="717" y="92"/>
         </scene>
         <!--RESULT-->
         <scene sceneID="wJh-MC-Ghd">
@@ -205,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFx-rD-RCm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39.375" y="92.957746478873247"/>
+            <point key="canvasLocation" x="-536" y="92"/>
         </scene>
     </scenes>
     <resources>
