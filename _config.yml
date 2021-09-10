@@ -1,6 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: BMI APP
-description: false
+title: Body mass index
+description: APP
 show_downloads: [true]
