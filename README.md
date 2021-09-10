@@ -1,2 +1,3 @@
 # BMI app
- Body mass index calculator app for iOS
+
+## Body mass index calculator app for iOS
