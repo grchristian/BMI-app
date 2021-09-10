@@ -15,27 +15,35 @@ class resultadosViewController: UIViewController {
     
     @IBOutlet weak var labelClasificacion: UILabel!
     
+    @IBOutlet weak var imagenCambiada: UIImageView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if (IMC<=18.5) {
             labelClasificacion.text = "PESO BAJO"
+            imagenCambiada.image = UIImage(named: String("1.png"))
         }
         else if(IMC>18.5 && IMC<=24.9) {
             labelClasificacion.text = "PESO SALUDABLE"
+            imagenCambiada.image = UIImage(named: String("2.png"))
         }
         else if(IMC>25 && IMC<=29.9) {
             labelClasificacion.text = "SOBREPESO"
+            imagenCambiada.image = UIImage(named: String("3.png"))
         }
         else if(IMC>30 && IMC<=34.9) {
             labelClasificacion.text = "OBESIDAD 1º"
+            imagenCambiada.image = UIImage(named: String("4.png"))
         }
         else if(IMC>35 && IMC<=39.9) {
             labelClasificacion.text = "OBESIDAD 2º"
+            imagenCambiada.image = UIImage(named: String("5.png"))
         }
         else {
             labelClasificacion.text = "OBESIDAD MÓRBIDA"
+            imagenCambiada.image = UIImage(named: String("6.png"))
         }
         labeldeResultado.text = String(IMC)
     }

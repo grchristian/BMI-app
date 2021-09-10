@@ -14,6 +14,12 @@
 		AA30DF3C26DD228600E42FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA30DF3B26DD228600E42FBA /* Assets.xcassets */; };
 		AA30DF3F26DD228600E42FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA30DF3D26DD228600E42FBA /* LaunchScreen.storyboard */; };
 		AA30DF4A26DD260E00E42FBA /* bmi.png in Resources */ = {isa = PBXBuildFile; fileRef = AA30DF4926DD260E00E42FBA /* bmi.png */; };
+		AA9381BC26EC03F000E3498B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381B626EC03EF00E3498B /* 4.png */; };
+		AA9381BD26EC03F000E3498B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381B726EC03EF00E3498B /* 1.png */; };
+		AA9381BE26EC03F000E3498B /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381B826EC03F000E3498B /* 6.png */; };
+		AA9381BF26EC03F000E3498B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381B926EC03F000E3498B /* 5.png */; };
+		AA9381C026EC03F000E3498B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381BA26EC03F000E3498B /* 2.png */; };
+		AA9381C126EC03F000E3498B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9381BB26EC03F000E3498B /* 3.png */; };
 		AAC1D52926E117D2000A5229 /* resultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1D52826E117D2000A5229 /* resultadosViewController.swift */; };
 		AAC1D52B26E1278E000A5229 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC1D52A26E1278E000A5229 /* bg2.png */; };
 /* End PBXBuildFile section */
@@ -28,6 +34,12 @@
 		AA30DF3E26DD228600E42FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA30DF4026DD228600E42FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA30DF4926DD260E00E42FBA /* bmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmi.png; sourceTree = "<group>"; };
+		AA9381B626EC03EF00E3498B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AA9381B726EC03EF00E3498B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AA9381B826EC03F000E3498B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		AA9381B926EC03F000E3498B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AA9381BA26EC03F000E3498B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AA9381BB26EC03F000E3498B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		AAC1D52826E117D2000A5229 /* resultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultadosViewController.swift; sourceTree = "<group>"; };
 		AAC1D52A26E1278E000A5229 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +90,12 @@
 		AA30DF4626DD23F000E42FBA /* img */ = {
 			isa = PBXGroup;
 			children = (
+				AA9381B726EC03EF00E3498B /* 1.png */,
+				AA9381BA26EC03F000E3498B /* 2.png */,
+				AA9381BB26EC03F000E3498B /* 3.png */,
+				AA9381B626EC03EF00E3498B /* 4.png */,
+				AA9381B926EC03F000E3498B /* 5.png */,
+				AA9381B826EC03F000E3498B /* 6.png */,
 				AAC1D52A26E1278E000A5229 /* bg2.png */,
 				AA30DF4926DD260E00E42FBA /* bmi.png */,
 			);
@@ -141,11 +159,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9381C126EC03F000E3498B /* 3.png in Resources */,
+				AA9381BC26EC03F000E3498B /* 4.png in Resources */,
 				AA30DF3F26DD228600E42FBA /* LaunchScreen.storyboard in Resources */,
+				AA9381C026EC03F000E3498B /* 2.png in Resources */,
 				AA30DF4A26DD260E00E42FBA /* bmi.png in Resources */,
 				AA30DF3C26DD228600E42FBA /* Assets.xcassets in Resources */,
 				AAC1D52B26E1278E000A5229 /* bg2.png in Resources */,
 				AA30DF3A26DD228200E42FBA /* Main.storyboard in Resources */,
+				AA9381BF26EC03F000E3498B /* 5.png in Resources */,
+				AA9381BE26EC03F000E3498B /* 6.png in Resources */,
+				AA9381BD26EC03F000E3498B /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
