@@ -21,6 +21,3 @@ IMC = P/(E*E)
 <div style="text-align:center">
     <img src="preview.gif" />
 </div>
-
-
-![prueba](preview.gif)
