@@ -29,19 +29,19 @@ class resultadosViewController: UIViewController {
             labelClasificacion.text = "PESO SALUDABLE"
             imagenCambiada.image = UIImage(named: String("2.png"))
         }
-        else if(IMC>25 && IMC<=29.9) {
+        else if(IMC>=25 && IMC<=29.9) {
             labelClasificacion.text = "SOBREPESO"
             imagenCambiada.image = UIImage(named: String("3.png"))
         }
-        else if(IMC>30 && IMC<=34.9) {
+        else if(IMC>=30 && IMC<=34.9) {
             labelClasificacion.text = "OBESIDAD 1º"
             imagenCambiada.image = UIImage(named: String("4.png"))
         }
-        else if(IMC>35 && IMC<=39.9) {
+        else if(IMC>=35 && IMC<=39.9) {
             labelClasificacion.text = "OBESIDAD 2º"
             imagenCambiada.image = UIImage(named: String("5.png"))
         }
-        else {
+        else if(IMC>=40) {
             labelClasificacion.text = "OBESIDAD MÓRBIDA"
             imagenCambiada.image = UIImage(named: String("6.png"))
         }

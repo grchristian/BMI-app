@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H6X-18-PH3">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -31,13 +31,13 @@
                                 <rect key="frame" x="75" y="431" width="264" height="353"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PESO (KG)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imb-sP-wHy">
-                                        <rect key="frame" x="75.5" y="30" width="113" height="29"/>
+                                        <rect key="frame" x="75.666666666666657" y="30" width="113" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="34X-gh-aI1">
-                                        <rect key="frame" x="71.5" y="67" width="117" height="34"/>
+                                        <rect key="frame" x="71.666666666666657" y="67" width="117" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="pea-GT-EpG"/>
                                         </constraints>
@@ -62,7 +62,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zgx-Qb-XA3">
-                                        <rect key="frame" x="71.5" y="176" width="117" height="34"/>
+                                        <rect key="frame" x="71.666666666666657" y="176" width="117" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="aTQ-4W-XEN"/>
                                         </constraints>
@@ -209,8 +209,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fondo" width="207" height="448"/>
-        <image name="fondo2" width="207" height="448"/>
+        <image name="fondo" width="138" height="298.66665649414062"/>
+        <image name="fondo2" width="138" height="298.66665649414062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
