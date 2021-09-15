@@ -1,14 +1,14 @@
-### App que calcula el índice de masa corporal.
+#### App que calcula el índice de masa corporal
 
 Las entradas son:
 * P = Peso en kilogramos
 * E = Estatura en metros
 
-#### La salida es calculada de acuerdo a esta formula:
+##### La salida es calculada de acuerdo a esta formula:
 
 IMC = P/(E*E)
 
-#### El resultado es clasificado en:
+##### El resultado es clasificado en:
 
 * IMC menor o igual a 18,5 – se considera bajo de peso
 * IMC entre 18,5 y 24,9 – se considera peso saludable
